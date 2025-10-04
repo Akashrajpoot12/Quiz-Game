@@ -40,10 +40,6 @@ A fun, interactive trivia quiz app built with HTML, CSS, and JavaScript. Choose 
 
 **Note**: Needs internet for questions. Test in Chrome/Firefox.
 
-## Screenshots
-- ![Subject Selection](screenshots/subjects.png) <!-- Add images -->
-- ![Question Screen](screenshots/question.png)
-- ![Score Screen](screenshots/score.png)
 
 ## Contributing
 - Fork the repo.
