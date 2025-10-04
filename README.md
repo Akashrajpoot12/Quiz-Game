@@ -33,7 +33,7 @@ No Dependencies: Pure vanilla code—no frameworks like React or libraries.
 Installation & Setup
 
 Clone/Download the Project:
-textgit clone https://github.com/your-username/quiz-game.git
+textgit clone [https://github.com/your-username/quiz-game.git](https://github.com/Akashrajpoot12/Quiz-Game)
 cd quiz-game
 Or download the ZIP from GitHub.
 Add Sound Files (Optional for audio features):
