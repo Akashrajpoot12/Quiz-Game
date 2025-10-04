@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 class="title">Welcome to the Quiz!</h1>
+        <button id="mute-btn" class="mute-btn">🔊 Mute</button>
+        
+        <!-- Subject Selection Screen -->
+        <div id="subject-container" class="screen fade-in">
+            <h2>Choose a Subject</h2>
+            <div id="subjects" class="subjects-grid"></div>
+            <button id="start-quiz-btn" class="btn-primary" disabled>Start Quiz</button>
+        </div>
+        
+        <!-- Question Screen -->
+        <div id="question-container" class="screen" style="display: none;">
+            <button id="cancel-btn" class="btn-secondary">❌ Cancel Quiz</button>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <h2 id="question" class="question-text"></h2>
+            <div id="timer" class="timer">Time left: <span id="time-left">30</span> seconds</div>
+            <div id="options" class="options-list"></div>
+            <button id="next-btn" class="btn-primary" disabled>Next</button>
+        </div>
+        
+        <!-- Score Screen -->
+        <div id="score-container" class="screen" style="display: none;">
+            <h2>Your Score: <span id="score"></span>/ <span id="total"></span></h2>
+            <canvas id="confetti-canvas" width="500" height="300"></canvas>
+            <button id="restart-btn" class="btn-primary">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
